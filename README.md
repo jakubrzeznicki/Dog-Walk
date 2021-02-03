@@ -24,7 +24,7 @@ Aplikacja mobilna na system Android,  napisana w języku Kotlin z wykorzystaniem
 ### Funkcjonalności
 Lista funkcjonalności jakie zapewnia aplikacja Dog Walk
 * Podgląd spacerów, między innymi takich informacji jak dystans, czas, data oraz mapa przebytej drogi.
-* Dodanie nowego spaceru, aplikacja śledzi nasz ruch na bieżąco. Uaktualnia pozycję na mapie, czas oraz dystans.
+* Dodanie nowego spaceru, aplikacja śledzi nasz ruch na bieżąco. Uaktualnia pozycję na mapie (GPS), czas oraz dystans.
 * Przechowywanie informacji o naszym psie, takich tak: Imie, Rasa, Data urodzenia, Płeć, Waga, Zdjęcie, Aktywności.
 * Kalkulator kalori obliczający zapotrzebowanie w zależności od wieku, wagi oraz aktywności psa.
 * Powiadomienia o wyjściu na spacer, od - do konkretnej godziny.
