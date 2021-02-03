@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Dog Walk</string>
+
+    <string name="current_distance">0.000</string>
+    <string name="distance_label">Dystans</string>
+    <string name="distance_unit">km</string>
+
+    <string name="time_label">Czas</string>
+    <string name="current_time">00:00</string>
+    <string name="time_unit">h</string>
+
+    <string name="start_label">Start</string>
+    <string name="stop_label">Stop</string>
+
+    <string name="cancel_walk">Cancel walk</string>
+    <string name="end_walk_label">Koniec</string>
+
+    <string name="my_walks_label">Spacery</string>
+    <string name="profile_label">Profil</string>
+    <string name="calories_calculator_label">Kalorie</string>
+    <string name="notification_label">Powiadomienia</string>
+
+    <string name="first_name_label">Imię</string>
+    <string name="breed_label">Rasa</string>
+    <string name="gender_label">Płeć</string>
+    <string name="birthday_label">Data urodzin</string>
+    <string name="weight_label">Waga</string>
+
+    <string name="date_label">Data</string>
+    <string name="name_label">Nazwa</string>
+    <string name="cancel_label">Anuluj</string>
+    <string name="save_label">Zapisz</string>
+
+    <string name="dog_label">Pies</string>
+    <string name="bitch_label">Suka</string>
+    <string name="yes_label">Tak</string>
+    <string name="no_label">Nie</string>
+    <string name="activity_label">Aktywność</string>
+    <string name="normal_label">Srednia</string>
+    <string name="low_label">Mała</string>
+    <string name="high_label">Wysoka</string>
+
+    <string name="sample_notification">Powiadomienie</string>
+
+    <string name="turn_on">Włącz</string>
+    <string name="turn_off">Wyłącz</string>
+
+    <string name="turn_on_notification_label">Powiadomienia włączone?</string>
+    <string name="walk_label">Wyjścia na spacer</string>
+    <string name="first_hour_walk_label">Godzina pierwszego wyjścia:</string>
+    <string name="last_hour_walk_label">Godzina ostatniego wyjścia:</string>
+    <string name="gap_walk_label">Przerwy (godziny):</string>
+    <string name="gap_default_walue">4</string>
+    <string name="make_custom_notification_label">Stwórz powiadomienie</string>
+    <string name="name_of_custom_notification_example">Szczepienie przeciwko wsciekliznie</string>
+    <string name="add">Dodaj</string>
+    <string name="dog_example">Pies</string>
+    <string name="fill_profile_information">Aby obliczyć kalorię, uzupełnij informacje<br /> w zakładce <b>Profil</b> takie jak:<br /> <b>Waga</b>, <b>Aktywność</b>, <b>Data urodzenia</b></string>
+    <string name="delete_item_title">Usuwanie</string>
+    <string name="delete_item_message">Czy na pewno chcesz usunąć?</string>
+    <string name="first_hour_start_value">8:00</string>
+    <string name="end_hour_start_value">22:00</string>
+    <string name="count_of_calories_label">Ilość kalorii</string>
+    <string name="goal_label">Cel:</string>
+    <string name="reduction_label">Redukcja</string>
+    <string name="hold_label">Utrzymanie</string>
+    <string name="gain_label">Zbudowanie</string>
+    <string name="calculate_label">Oblicz</string>
+
+    <string-array name="gender_array">
+        <item>Pies</item>
+        <item>Suka</item>
+    </string-array>
+
+    <string-array name="activity_array">
+        <item>Mała</item>
+        <item>Srednia</item>
+        <item>Wysoka</item>
+    </string-array>
+</resources>

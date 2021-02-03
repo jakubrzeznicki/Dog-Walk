@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/myWalkListFragment"
+        android:icon="@drawable/ic_walk"
+        android:title="@string/my_walks_label" />
+
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/ic_pet"
+        android:title="@string/profile_label" />
+
+    <item
+        android:id="@+id/caloriesCalculatorFragment"
+        android:icon="@drawable/ic_calculate"
+        android:title="@string/calories_calculator_label" />
+
+    <item
+        android:id="@+id/notificationViewPagerFragment"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/notification_label" />
+</menu>

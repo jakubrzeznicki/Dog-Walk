@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/myWalkListFragment">
+
+    <action
+        android:id="@+id/action_global_trackingWalkFragment"
+        app:destination="@id/trackingWalkFragment"
+        app:launchSingleTop="true" />
+
+    <action
+        android:id="@+id/action_global_myListWalkFragment"
+        app:destination="@id/myWalkListFragment"
+        app:launchSingleTop="true" />
+
+
+    <fragment
+        android:id="@+id/myWalkListFragment"
+        android:name="com.kuba.dogwalk.ui.mywalk.MyWalkListFragment"
+        android:label="MyWalkListFragment">
+        <action
+            android:id="@+id/action_myWalkListFragment_to_trackingWalkFragment"
+            app:destination="@id/trackingWalkFragment" />
+        <action
+            android:id="@+id/action_myWalkListFragment_to_myWalkDetailFragment"
+            app:destination="@id/myWalkDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/trackingWalkFragment"
+        android:name="com.kuba.dogwalk.ui.mywalk.TrackingWalkFragment"
+        android:label="TrackingWalkFragment">
+        <action
+            android:id="@+id/action_trackingWalkFragment_to_myWalkListFragment"
+            app:destination="@id/myWalkListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/caloriesCalculatorFragment"
+        android:name="com.kuba.dogwalk.ui.caloriesCalculator.CaloriesCalculatorFragment"
+        android:label="CaloriesCalculatorFragment" />
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.kuba.dogwalk.ui.profile.ProfileFragment"
+        android:label="ProfileFragment" />
+    <fragment
+        android:id="@+id/myWalkDetailFragment"
+        android:name="com.kuba.dogwalk.ui.mywalk.MyWalkDetailFragment"
+        android:label="MyWalkDetailFragment" >
+        <action
+            android:id="@+id/action_myWalkDetailFragment_to_myWalkListFragment"
+            app:destination="@id/myWalkListFragment"
+            app:popUpTo="@id/myWalkListFragment" />
+        <argument
+            android:name="myItemId"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </fragment>
+    <fragment
+        android:id="@+id/notificationViewPagerFragment"
+        android:name="com.kuba.dogwalk.ui.notification.NotificationViewPagerFragment"
+        android:label="NotificationViewPagerFragment" />
+</navigation>

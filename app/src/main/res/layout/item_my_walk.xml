@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/image_view_my_dog"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/text_view_distance_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:hint="@string/distance_label"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/text_view_distance"
+        app:layout_constraintStart_toEndOf="@+id/image_view_my_dog"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/text_view_distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:text="12.4 km"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/image_view_my_dog"
+        app:layout_constraintTop_toBottomOf="@+id/text_view_distance_label" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/text_view_time_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:hint="@string/time_label"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/text_view_time"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/text_view_time"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/text_view_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="16dp"
+        android:text="27:23"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_view_time_label" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/text_view_date_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:hint="@string/date_label"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/text_view_date"
+        app:layout_constraintStart_toEndOf="@+id/image_view_my_dog"
+        app:layout_constraintTop_toBottomOf="@+id/text_view_distance" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/text_view_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="31.01.2020 "
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/image_view_my_dog"
+        app:layout_constraintTop_toBottomOf="@+id/text_view_date_label" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
