@@ -50,6 +50,9 @@ Aplikacja posiada następująco strukturę:
     - [androidx.hilt](https://developer.android.com/jetpack/androidx/releases/hilt)- version 1.0.0-alpha02
     - [androidz.lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle)- version 2.2.0
     - [androidx.navigation](https://developer.android.com/jetpack/androidx/releases/navigation) - version 2.3.2
+    - [View Binding](https://developer.android.com/topic/libraries/view-binding)
+
+    
 - [Dagger Hilt](https://developer.android.com/training/dependency-injection/hilt-android)- version 2.28-alpha
 - [kotlinx.coroutines](https://github.com/Kotlin/kotlinx.coroutines)- version 1.4.2
 - [Glide](https://github.com/bumptech/glide)- version 4.11.0
