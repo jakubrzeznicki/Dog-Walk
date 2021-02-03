@@ -11,7 +11,7 @@
 
 
 ### Informacje
-Aplikacja mobilna na system Android,  napisana w języku Kotlin z wykorzystaniem wzorca MVVM. Dzięki aplikacji użytkownik może m.in. sledzić spacery psa, ustawiać przypomniennia, zapisywać podstawoe informacje o pupilu. Projekt wykonany na zaliczenie przedmiotu Aplikacje użytkowe.
+Aplikacja mobilna na system Android,  napisana w języku Kotlin z wykorzystaniem wzorca MVVM. Dzięki aplikacji użytkownik może m.in. śledzić spacery psa, ustawiać przypomnienia, zapisywać podstawowe informacje o pupilu. Projekt wykonany na zaliczenie przedmiotu Aplikacje użytkowe.
 
 ### Zrzuty ekranu
 
