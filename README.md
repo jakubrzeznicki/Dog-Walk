@@ -45,7 +45,7 @@ Aplikacja posiada następująco strukturę:
 
 ### Biblioteki
 
-- Jetpack Compose
+- Android Jetpack
     - [androidx.room](https://developer.android.com/jetpack/androidx/releases/room) - version 2.2.6
     - [androidx.hilt](https://developer.android.com/jetpack/androidx/releases/hilt)- version 1.0.0-alpha02
     - [androidz.lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle)- version 2.2.0
